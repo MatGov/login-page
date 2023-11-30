@@ -1,0 +1,110 @@
+:root {
+    --font-color: #ffffff;
+    --buttom-color: #fbb17a;
+    --azul-principal: #2d3240;
+    --azul-secundario: #424769;
+    --azul-terciario: #676fbd;
+}
+
+.imgfluid{
+    position: absolute;
+    height: 432px;
+    width: 350px;
+    left: 350px;
+    bottom: 0;
+    border-radius:0 0 20px 0;
+    transition: 1s;
+}
+
+.container{
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-principal);
+    color: var(--font-color);
+    padding: 2em;
+    width: 700px;
+    height: 550px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5em;
+}
+
+.btnForm{
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 blueviolet;
+}
+.btnForm button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+}
+
+.btnColor {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(to right, #5956e9, #a963f8 );
+    border-radius: 20px;
+}
+
+.metade{
+    width: 350px;
+    height: 100%;
+    padding: 2em;
+}
+
+.forms{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.input-texto{
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: .5em;
+    background-color: var(--azul-terciario);
+    color: var(--font-color);
+}
+
+.input-texto::placeholder{
+    color: var(--font-color);
+}
+
+.forms-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+.input-senha, .input-senha2{
+    margin-top: .5em;
+}
+
+.checkbox{
+    cursor: pointer;
+    margin-top: 1em;
+    margin-right: .5em;
+}
+
+.senha-esquecida {
+    text-decoration: none;
+    color: var(--azul-terciario);
+    font-size: 12px;
+    margin-top: .2em;
+    text-align: end;
+    margin-right: .5em;
+}
+
+.btnSubmit {
+    margin-top: 2em;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--buttom-color);
+    padding: 1em;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="img/paisagem.jpeg" class="imgfluid"></img>
+        <div class="btnForm">
+            <div class="btnColor"></div>
+            <button class="btnSignin">Login</button>
+            <button class="btnSignup">Cadastro</button>
+        </div>
+        <div class="forms">
+            <div>
+                <div class=" metade login">
+                    <h2>Seja bem vindo!</h2>
+                    <p>Faça o login para entrar no sistema.</p>
+                    <form class="forms-form">
+                        <input class="input-texto" type='text' placeholder='Email' required></input>
+                        <input class="input-texto input-senha" type='password' placeholder='Senha' required></input>
+                        <a class="senha-esquecida" href='#'>Esqueci a senha</a>
+                        <div class="divCheck">
+                            <input class="checkbox" type='checkbox'></input>
+                            <span>Lembre-se de mim</span>
+                        </div>
+                        <button class="btnSubmit" type='submit'>Login</button>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class=" metade cadastro">
+                    <h2>Muito prazer!</h2>
+                    <p>Faça parte da nossa equipe.</p>
+                    <form class="forms-form">
+                        <input class="input-texto" type='text' placeholder='Email' required></input>
+                        <input class="input-texto input-senha" type='password' placeholder='Senha' required></input>
+                        <input class="input-texto input-senha2" type='password' placeholder='Confirme a Senha' required></input>
+                        <div class="divCheck">
+                            <input class="checkbox" type='checkbox' required></input>
+                            <span>Concordo com os termos</span>
+                        </div>
+                        <button class="btnSubmit" type='submit'>Cadastre-se</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
